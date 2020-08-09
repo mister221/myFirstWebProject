@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #42455a;
+}
+.menu ul {
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li a {
+	text-decoration: none;
+	margin: 0 30px;
+	color: antiquewhite;
+	cursor: pointer;
+	text-transform: capitalize;
+}
+.menu ul li {
+	list-style-type: none;
+}
+#logo {
+	width: 30px;
+	height: 40px;
+	cursor: pointer;
+	margin-top: -10px;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+#sign-btn {
+	position: absolute;
+	top: 30px;
+	right: 80px;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background: linear-gradient(#42455a, #424551),
+		radial-gradient(circle at top left, #fd00da, #19d7f8);
+	/*background-origin: border-box;*/
+	background-clip: content-box, border-box;
+}
+#sign-btn span {
+	display: block;
+	padding: 8px 20px;
+}
+.banner {
+	position: absolute;
+	color: white;
+	left: 130px;
+}
+
+.app-text {
+	float: left;
+}
+
+.app-text h1 {
+	font-size: 43px;
+	width: 640px;
+	margin-left: 40px;
+	position: relative;
+}
+.app-text p {
+	position: relative;
+	margin-left: 40px;
+	line-height: 25px;
+	width: 640px;
+	font-size: medium;
+	color: orange;
+	padding: 20px 0px;
+}
+
+.app-picture {
+	float: right;
+}
+.app-picture img {
+	width: 500px;
+	height: 400px;
+	border-radius: 50px;
+	position: relative;
+	right: -100px;
+}
+.coffe-btn-inner {
+	margin-left: 40px;
+	margin-top: 40px;
+	height: 50px;
+	width: 50px;
+	font-size: 30px;
+}
+
+.quick-links {
+	position: absolute;
+	bottom: 5px;
+	left: 40px;
+	width: 300px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background: linear-gradient(#4256f1, #f02bc5);
+}
+.quick-links ul {
+	display: flex;
+}
+.quick-links ul li {
+	list-style-type: none;
+	padding: 20px;
+	margin-right: 10px;
+}
